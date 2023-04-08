@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>login</title>
+    <title>注册</title>
 </head>
 <body>
-欢迎来到登录界面
-<form action="/whhs/index/" method="post">
+欢迎来到注册界面
+<form action="/whhs/register/" method="post">
     {%csrf_token%}  <!-- 安全机制-->
     <p><label>用户名：</label><input name="user"></p>
     <p><label>密码：</label><input name="pwd"></p>
